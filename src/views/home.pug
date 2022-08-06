@@ -10,8 +10,11 @@ html(lang="en")
         header
             h1 Koom
         main
+            form#nick
+                input(type="text", placeholder="닉네임을 입력을 해주세요", required)
+                button 전송
             ul
-            form
+            form#message
                 input(type="text", placeholder="입력을 해주세요", required)
                 button 전송
         script(src='/public/js/app.js')
