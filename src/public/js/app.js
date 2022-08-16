@@ -10,8 +10,9 @@ const handleRoomSubmit = (e) => {
   input.value = "";
 };
 
-const callback = () => {
-  console.log("done");
+// 이 콜백 함수는 서버에 의해 작동이 되지만, 프런트엔드에서 작동이 된다.
+const callback = (msg) => {
+  console.log("done", msg);
 };
 
 form.addEventListener("submit", handleRoomSubmit);
