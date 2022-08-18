@@ -21,7 +21,7 @@ const handleRoomSubmit = (e) => {
 const callback = () => {
   welcome.hidden = true;
   room.hidden = false;
-  h3.innerText = `Room name: ${roomName}`;
+  h3.innerText = `Room: ${roomName}`;
 };
 
 form.addEventListener("submit", handleRoomSubmit);
