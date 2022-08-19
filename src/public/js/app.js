@@ -7,7 +7,7 @@ const h3 = room.querySelector("h3");
 
 room.hidden = true;
 
-let roomName;
+let roomName = "";
 
 const handleRoomSubmit = (e) => {
   e.preventDefault();
